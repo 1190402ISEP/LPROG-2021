@@ -1,0 +1,26 @@
+
+Gramática:
+
+
+<nome_escola><num_alunos><endereço>
+
+<nome_docente><ext><departamento>
+...
+
+
+nome_escola: ISEP|ISCAP|ESE
+num_aluno: [1-9]+[0-9]{2}
+nome_docente: STRING
+ext: 1000|[1-9]+[0-9]{3}
+departamento: STRING
+STRING: "[A-Z]{40}"
+
+
+
+----------------------------------------------------
+
+1190402-> António Daniel Barbosa Fernandes
+
+
+
+

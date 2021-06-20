@@ -1,0 +1,26 @@
+ENUNCIADO:
+
+1.A empresa DEI-TB precisa de apoio técnico para operacionalizar a informação apresentada no seu canal televisivo,
+durante os jogos de futebol do EURO2016.
+
+
+O sistema é suportado por um ficheiro TXT com informação dos vários jogos a transmitir. 
+Entre outras, a informação comporta a estrutura PT~MM:SS~EQP>G-G<EQP, onde:
+
+	PT, é opcional,  e corresponde a uma das palavras 1P, 2P, 1EP ou 2EP
+
+	MM corresponde à componente minutos, podendo ter 2 ou 3 dígitos (valores entre 00 e 120)
+
+	SS corresponde à componente segundos, com 2 dígitos (entre 00 e 59)
+
+	EQP corresponde à sigla duma equipa, composta por 3 letras maiúsculas
+
+	G corresponde aos golos marcados por uma equipa, valor inferior a 10
+	
+//NOTA: o tempo máximo de jogo é 120 minutos!
+
+
+
+SOLUÇÃO:
+
+((1|2)[E?P])?~((([0-9]{2}|1(0|1)[0-9]):([0-5][0-9]]))|120:00)~[A-Z]{3}>[0-9]-[0-9]<[A-Z]{3}

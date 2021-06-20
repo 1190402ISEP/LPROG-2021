@@ -1,0 +1,7 @@
+var=2+5
+teste=2*3
+teste+var
+nova=(teste+var)*2-5*3
+nova
+(2*20+1)*2+15
+

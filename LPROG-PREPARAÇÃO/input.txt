@@ -1,0 +1,7 @@
+@eumesmo "Os D.A.M.A. vêm à queima!" #queima2016,#festa
+@eumesmo "O Anselmo vêm à queima!" #queima2016,#festa,@anselmoralph
+@outroTipo1	@eumesmo "Não te esqueças do Quim!"	#quimbarreiros 3
+@eumesmo @outroTipo1,@outroTipo2,@outroTipo3 "Eu não vou ver o Quim!" 5
+@vendedor "Quem	quer bilhetes para a queima?"
+@outroTipo2	@eumesmo "Tens que vir ver o Quim!" #festabrava,#quimbarreiros 1
+@comprador @vendedor "Qual é o preço?" #queima2016 10

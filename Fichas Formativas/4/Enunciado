@@ -1,0 +1,38 @@
+Ficha de Avaliação Formativa 4/Formative Assessment Sheet 4
+Suponha que a seguinte lista telefónica geral dos docentes do IPP é disponibilizada electronicamente:
+
+<nome escola><num alunos><endereço>
+
+<nome docente><ext><departamento>
+
+…..
+
+<nome escola><num alunos><endereço>
+
+<nome docente><ext><departamento>
+
+…..
+
+O formato de cada campo é o seguinte:
+
+<nome escola>só aceita os valores ISEP, ISCAP, ESE
+
+<num alunos>inteiro maior que 100
+
+<endereço>string com um máximo de 40 caracteres limitada por aspas (pode incluir espaços)
+
+<nome docente>string com um máximo de 40 caracteres limitada por aspas (pode incluir espaços)
+
+<ext>inteiro maior que 999
+
+<departamento>string com um máximo de 40 caracteres limitada por aspas (pode incluir espaços)
+
+Considere que o universo do IPP é constituído pelas seguintes escolas: ISEP, ISCAP, ESE e que cada escola tem pelo menos um docente na lista telefónica
+
+a)Defina a gramática que reconheça a lista telefónica (definida em cima)
+
+b)Implemente a gramática utilizando o Flex e o Bison. Para além da validação do ficheiro o programa deve produzir os seguintes dados de saída:
+
+1.Nome da escola com mais alunos
+
+2.Nome e extensão dos docentes do departamento de “Engª Informática” do ISEP

@@ -1,0 +1,19 @@
+1. Pretende-se o estudo e especificação de um sistema de codificação para componentes de automóveis. 
+Suponha que dispõe do alfabeto ∑={X,Y,Z} para definir identificadores de componentes de automóveis. 
+Considere que um identificador não pode ser inicializado por X e este só poderá ocorrer no máximo uma vez.
+
+a) Defina uma expressão regular que permita validar identificadores de componentes de automóveis.
+
+(Y|Z)+X?(Y|Z)*
+
+
+b) Construa um autómato finito que reconheça a linguagem gerada pela expressão da alínea
+
+    Ficheiro em Anexo
+
+
+    a). Classifique o autómato finito obtido. Justifique.
+
+    Um autómato finito diz-se não determinístico (AFND) se, em pelo menos um dos seus estados e perante um
+    símbolo, se possa transitar para mais que um estado. Neste caso podemos transitar do A para o A ou do A
+    para o B através de Z ou através de Y.

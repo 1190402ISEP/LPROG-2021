@@ -1,0 +1,20 @@
+
+Gramática:
+
+
+<nome_escola><num_alunos><endereço>
+
+<nome_docente><ext><departamento>
+...
+
+registo: ε|cabecalho|
+cabecalho:NOME_ESCOLA NUM_ALUNOS ENDERECO
+LISTA_DOCENTES: DOCENTE|LISTA_DOCENTES |ε
+DOCENTE:NOME_DOCENTE EXT DEPARTAMENTO
+NOME_ESCOLA: ISEP|ISCAP|ESE
+NUM_ALUNOS: [1-9]+[0-9]{2}
+NOME_DOCENTE: string
+EXT: 1000|[1-9]+[0-9]{3}
+DEPARTAMENTO: string
+ENDERECO:string
+string: "[A-Z]{40}"
